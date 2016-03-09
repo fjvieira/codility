@@ -8,7 +8,11 @@ public class Nesting {
 	System.out.println(solution("(()())"));
 	System.out.println(solution("))"));
     }
-
+ 
+    /**
+     * @param s
+     * @return
+     */
     public static int solution(String s){
 	long nested = 0;
 	for (int i = 0; i < s.length(); i++) {

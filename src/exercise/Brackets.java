@@ -8,11 +8,11 @@ public class Brackets {
 
     
     public static void main(String...args) {
-//	System.out.println(solution("[]{}"));
-//	System.out.println(solution("{[()()]}"));
-//	System.out.println(solution("([)()]"));
-//	System.out.println(solution("([[()()()()[][][][][][]]])"));
-//	System.out.println(solution("([[]]]]]]]]]]]]]]]]]]])"));
+	System.out.println(solution("[]{}"));
+	System.out.println(solution("{[()()]}"));
+	System.out.println(solution("([)()]"));
+	System.out.println(solution("([[()()()()[][][][][][]]])"));
+	System.out.println(solution("([[]]]]]]]]]]]]]]]]]]])"));
 	System.out.println(solution("]]]]]]]]]]]]]]]]]]])"));
 	
     }
